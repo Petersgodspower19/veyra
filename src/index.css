@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #F3F4F6;
+    background-color: #090A0E;
+    letter-spacing: -0.011em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+  }
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', 'Chivo Mono', monospace;
+  }
+}
+
+/* Typography styles */
+.font-display {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.035em;
+}
+
+.font-body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-tech {
+  font-family: 'Sora', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Custom scrollbar for modern fintech density */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0E13;
+}
+::-webkit-scrollbar-thumb {
+  background: #232733;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #353B4B;
+}
+
+/* Numeric tabular styling */
+.font-mono-num {
+  font-family: 'JetBrains Mono', 'Chivo Mono', monospace;
+  font-feature-settings: "tnum" 1, "zero" 1;
+  letter-spacing: -0.025em;
+}
+
+/* Dynamic Font Themes */
+.font-theme-outfit body,
+.font-theme-outfit {
+  font-family: 'Manrope', sans-serif;
+}
+.font-theme-outfit h1,
+.font-theme-outfit h2,
+.font-theme-outfit h3,
+.font-theme-outfit h4,
+.font-theme-outfit .font-display {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.035em;
+}
+
+.font-theme-sora body,
+.font-theme-sora {
+  font-family: 'Outfit', sans-serif;
+}
+.font-theme-sora h1,
+.font-theme-sora h2,
+.font-theme-sora h3,
+.font-theme-sora h4,
+.font-theme-sora .font-display {
+  font-family: 'Sora', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.font-theme-mono body,
+.font-theme-mono {
+  font-family: 'Manrope', sans-serif;
+}
+.font-theme-mono h1,
+.font-theme-mono h2,
+.font-theme-mono h3,
+.font-theme-mono h4,
+.font-theme-mono .font-display {
+  font-family: 'Chivo Mono', monospace;
+  letter-spacing: -0.04em;
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "name": "Veyra — Digital Asset Investment Brokerage",
+  "description": "Next-generation digital asset investment platform designed for sophisticated, secure, and disciplined wealth management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
